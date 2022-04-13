@@ -1,0 +1,33 @@
+Package: com.Nrepo.Nicon
+Version: 1.0.4
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer:  NsBm0d  <NsBm0d@LIVE.com>
+Filename: ./debs//com.nrepo.nicon_1.0.4_iphoneos-arm.deb
+Size: 12062
+MD5sum: 16c272cd218bec8ec146fe92b277b257
+SHA1: 60286cc76cf57f313976e1d2c35201608588d681
+SHA256: 4ec4c749dce9e0adea4c0ba824d4c967179b457cccdef338a1c3027d017cc560
+Section: aTweaks
+Priority: required
+Description: Adds setup files, icons and sources to repo
+Author:  NsBm0d 
+Depiction: https://Nrepo.github.io/depictions/?p=com.Nrepo.Nicon
+Name: Nicon
+Sponsor: http://nrepo.github.io/
+
+Package: com.Nrepo.NsB
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer:  NsBm0d  <NsBm0d@LIVE.com>
+Filename: ./debs//com.nrepo.nsb_1.0.2_iphoneos-arm.deb
+Size: 633808
+MD5sum: 54b72a652c052596bcc8a7bc317833c8
+SHA1: ea46194854ea045235b349f5f175160c7f2361ef
+SHA256: b4a175c5d09b79b1c45ad6f542fa582066f2c2eef31f16fda34d10bae9a84200
+Section: aThemes
+Description: Crystal Apple Theme
+Author:  NsBm0d 
+Depiction: https://Nrepo.github.io/depictions/?p=com.Nrepo.NsB
+Name: NsB
+
