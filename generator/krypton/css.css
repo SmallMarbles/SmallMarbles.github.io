@@ -1,0 +1,52 @@
+#logo{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: 50px;
+  margin-left: -30px;
+}
+
+.container1{
+  text-align: center;
+  width: 700px;
+  max-width: 700px;
+  height: 250px;
+  margin: 1rem;
+  padding: 1rem;
+  background: rgb(232, 232, 232); /* Fallback for older browsers without RGBA-support */
+  background: rgba(232, 232, 232);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: 50px;
+  margin-left: -350px;
+  border-radius: 0.4vh;
+}
+
+#yay{
+  font-size: 6px;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#subtitle{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: -0px;
+  margin-left: -190px;
+}
+
+html {
+  overflow-x: hidden;
+}
