@@ -1,0 +1,17 @@
+Create filesystems:
+
+/sbin/newfs_hfs -s -v System -J -b 8192 -n a=8192,c=8192,e=8192 /dev/disk0s1s3
+
+/sbin/newfs_hfs -s -v Data -J -b 8192 -n a=8192,c=8192,e=8192 /dev/disk0s1s4
+
+Mount second os data partition:
+
+mount_hfs /dev/disk0s1s4 /mnt2
+
+Now send UDZO rootfs dmg file to /mnt2 using afc2 or scp
+
+Then:
+
+asr restore --source /mnt2/UDZO.dmg --target /dev/disk0s1s3 --erase
+
+Done
