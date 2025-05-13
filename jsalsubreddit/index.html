@@ -1,0 +1,13 @@
+<center>
+<h1>adding to jack's room day 2</h1>
+
+<input type="text" id="idea" placeholder="Type your idea here...">
+<input type="text" id="redditname"  placeholder="Your Reddit username.">
+
+<script>
+  function sendtheideas() { // hi people who are looking at the code
+    fetch("https://dcwh.my/post?uniqueid=a9092906", {"body": "{\n  \"content\": " + '"' +  document.getElementById("idea").value + ' - ' + document.getElementById("redditname").value + '"' + ",\n  \"username\": \"michael huang\"\n}", "method": "POST"}); // discord webhook protector api thingy, nothing special
+  }
+</script>
+  
+</center>
