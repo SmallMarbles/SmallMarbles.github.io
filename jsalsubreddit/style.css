@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+canvas {
+  image-rendering: pixelated;
+  border: 1px solid #ccc;
+}
