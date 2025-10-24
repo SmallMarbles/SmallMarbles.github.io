@@ -12,7 +12,7 @@ async function findNeighbor() {
   const orderNumber = parseInt(input);
 
   try {
-    const response = await fetch('/data.json');
+    const response = await fetch('https://smallmarbles.github.io/jsalsubreddit/postcard/data.json');   
     const data = await response.json();
 
     const orders = data.map(item => ({
@@ -38,3 +38,4 @@ async function findNeighbor() {
     resultDiv.textContent = 'Error loading data.';
   }
 }
+
