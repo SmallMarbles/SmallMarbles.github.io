@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Lookup</title>
+  <style>
+    body { font-family: sans-serif; margin: 2em; background: rgba(194, 192, 192, 0.827); }
+    input, button { padding: 8px; margin-top: 10px; }
+    #result { margin-top: 20px; background: white; padding: 10px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h2>Find Your Jack Postcard Neighbor   </h2>
+  <p>Enter the number on your thank you card here:</p>  
+  <input type="number" id="orderInput" placeholder="e.g., 1002">
+  <button onclick="findNeighbor()">Check</button>
+  <div id="extraDetails"></div> 
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+  <br>
+  <br>
+  <br>
+  <a href="/add" >ADD YOUR OWN CARD</a>        
+</body>
+</html>
