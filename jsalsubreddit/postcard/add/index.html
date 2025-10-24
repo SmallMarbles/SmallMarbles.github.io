@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Lookup</title>
+  <style>
+    body { font-family: sans-serif; margin: 2em; background: rgba(194, 192, 192, 0.827); }
+    input, button { padding: 8px; margin-top: 10px; }
+    #result { margin-top: 20px; background: white; padding: 10px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h2>ADD YOUR OWN CARD</h2>
+  <p>First off, make sure your card isn't already in the database correctly. Check this by inputting your thank you card's number here.</p>
+  <input type="number" id="orderNumber" placeholder="Order Number">
+  <button onclick="findNeighbor()">Check</button>
+  <div id="extraDetails"></div> 
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+  <br>
+  <br>
+  <br>
+  <a href="/" >BACK HOME</a>        
+</body>
+</html>
